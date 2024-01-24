@@ -3,7 +3,7 @@ body{
 }
 
 .sidebar{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
@@ -178,5 +178,51 @@ body{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-top: 185px;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    height: 70px; 
+
+
+}
+
+.footer .grid {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+}
+
+.grid p{
+    font-weight: 700;
+    font-family:"DM Sans",sans-serif;
+    color: white;
+}
+
+.grid span{
+    font-weight: 400;
+    font-family:"DM Sans",sans-serif;
+    color: white;
+}
+
+.footer .footer__button button {
+    background-color: #1DB954; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 14px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.footer__button{
+    margin: auto 30px;
 
 }
